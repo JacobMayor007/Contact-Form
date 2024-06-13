@@ -1,5 +1,9 @@
 var fName, lName, email, query, message;
 
+var windowHeight = $(window).innerHeight();
+$('body').css({'height':windowHeight});
+
+
 $(".submit-button").on("click", function(event) {
     event.preventDefault();
     fName = $(".fName-input").val();
@@ -20,8 +24,11 @@ $(".submit-button").on("click", function(event) {
             $("#toast-message").slideUp(1000);
         }, 3000);
     }
+    else{
+        // submittedFunction();
+    }
 
-    submittedFunction();
+
 });
 
 

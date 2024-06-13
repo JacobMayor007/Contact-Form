@@ -17,7 +17,8 @@ html{
 .lName-label{
     display: inline-block;
     position: relative;
-    bottom: 30px;
+    left: 230px;
+    bottom: 74.8px;
     width: 47%;
 }
 
@@ -30,9 +31,9 @@ html{
 
 form{
     background-color: white;
-    padding: 40px 70px 40px 70px;
+    padding: 20px;
     width: 70vh;
-    height: 80vh;
+    height: 75vh;
     border-radius: 20px;
     line-height: 30px;
 }
@@ -58,7 +59,7 @@ h1{
 .fName-input{
     margin-right: 10px;
     position: relative;
-    bottom: 30px;
+    bottom: 0px;
     width: 49%;
 }
 
@@ -89,13 +90,13 @@ input{
 }
 
 .genquiry{
-    width: 45.6%;
+    width: 44.6%;
 }
 
 .rsupport{
     position: relative;
-    bottom: 41.8px;
-    left: 260px;
+    bottom: 44px;
+    left: 231px;
     width: 43%;
 }
 
@@ -111,14 +112,18 @@ input{
 
 textarea{
     resize: none;
+    width: 100%;
+    height: 80px;
 }
 
 
 .consent {
+    margin-top: 10px;
     width: 100%;
     display: flex;
     align-items: center;
     column-gap: 10px;
+    position: relative;
 }
 
 .submit-button{

@@ -1,102 +1,5 @@
-@media only screen and (max-width: 1366px ) {
-
-    .container{
-        height: 100vh;
-        width: 100%;
-    }
-
-    .first-container{
-        height: 100px;
-    }
-
-    form{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .fName-input{
-        position: relative;
-        bottom: 1px;
-    }
-
-    .lName-label {
-        display: inline-block;
-        position: relative;
-        left: 229px;
-        bottom: 74.9px;
-        width: 48%;
-    }
-
-    .query-type{
-        margin-bottom: 10px;
-        margin-top: 10px;
-        height: 80px;
-    }
-
-    .rsupport {
-        position: relative;
-        bottom: 44px;
-        left: 233px;
-        width: 43%;
-    }
-
-    .message-textarea{
-        height: 81px;
-        width: 100%;
-    }
-}
-
-@media only screen and (min-width: 1080px) {
-
+@media only screen and (max-width: 420px) {
     .container {
-        height: 100vh;
-        width: 100%;
-    }
-
-    .first-container {
-        height: 100px;
-    }
-
-    form {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .fName-input {
-        position: relative;
-        bottom: 1px;
-    }
-
-    .lName-label {
-        display: inline-block;
-        position: relative;
-        left: 229px;
-        bottom: 74.9px;
-        width: 48%;
-    }
-
-    .query-type {
-        margin-bottom: 10px;
-        margin-top: 10px;
-        height: 80px;
-    }
-
-    .rsupport {
-        position: relative;
-        bottom: 44px;
-        left: 233px;
-        width: 43%;
-    }
-
-    .message-textarea {
-        height: 81px;
-        width: 100%;
-    }
-}
-
-
-@media only screen and (max-width: 390px) {
-    .container{
         display: flex;
         align-items: center;
         height: 150vh;
@@ -107,28 +10,28 @@
         height: 140px;
     }
 
-    form{
+    form {
         width: 200px;
         padding: 20px;
         height: 130vh;
     }
 
-    .lName-label{
+    .lName-label {
         position: relative;
         width: 100%;
         top: 10px;
         left: 0px;
     }
 
-    .name-container{
+    .name-container {
         height: 165px;
     }
 
-    .fName-input{
+    .fName-input {
         width: 100%;
     }
-    
-    .query-type{
+
+    .query-type {
         height: 130px;
     }
 
@@ -136,10 +39,195 @@
         width: 90%;
     }
 
-    .rsupport{
-        position: absolute;
-        left: 95px;
-        bottom: 80px;
+    .rsupport {
+        position: relative;
+        left: 0;
+        top: 7px;
         width: 180px;
     }
+
+    #toast-message {
+        height: 90px;
+        width: 280px;
+        background-color: hsl(187, 24%, 22%);
+        position: absolute;
+        top: 10px;
+        display: none;
+    }
+
 }
+
+@media only screen and (max-width: 390px) {
+    .container {
+        display: flex;
+        align-items: center;
+        height: 150vh;
+        width: 100%;
+    }
+
+    .first-container {
+        height: 140px;
+    }
+
+    form {
+        width: 200px;
+        padding: 20px;
+        height: 130vh;
+    }
+
+    .lName-label {
+        position: relative;
+        width: 100%;
+        top: 10px;
+        left: 0px;
+    }
+
+    .name-container {
+        height: 165px;
+    }
+
+    .fName-input {
+        width: 100%;
+    }
+
+    .query-type {
+        height: 130px;
+    }
+
+    .genquiry {
+        width: 90%;
+    }
+
+    .rsupport {
+        position: relative;
+        left: 0;
+        top: 7px;
+        width: 180px;
+    }
+
+    #toast-message {
+        height: 90px;
+        width: 280px;
+        background-color: hsl(187, 24%, 22%);
+        position: absolute;
+        top: 10px;
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .container {
+        display: flex;
+        align-items: center;
+        height: 150vh;
+        width: 100%;
+    }
+
+    .first-container {
+        height: 140px;
+    }
+
+    form {
+        width: 200px;
+        padding: 20px;
+        height: 130vh;
+    }
+
+    .lName-label {
+        position: relative;
+        width: 100%;
+        top: 10px;
+        left: 0px;
+    }
+
+    .name-container {
+        height: 165px;
+    }
+
+    .fName-input {
+        width: 100%;
+    }
+
+    .query-type {
+        height: 130px;
+    }
+
+    .genquiry {
+        width: 90%;
+    }
+
+    .rsupport {
+        position: relative;
+        left: 0;
+        top: 7px;
+        width: 180px;
+    }
+
+    #toast-message {
+        height: 90px;
+        width: 280px;
+        background-color: hsl(187, 24%, 22%);
+        position: absolute;
+        top: 10px;
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    .container {
+        display: flex;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+    }
+
+    .first-container {
+        height: 140px;
+    }
+
+    form {
+        width: 200px;
+        padding: 20px;
+        height: 80vh;
+    }
+
+    .lName-label {
+        position: relative;
+        width: 100%;
+        top: 10px;
+        left: 0px;
+    }
+
+    .name-container {
+        height: 165px;
+    }
+
+    .fName-input {
+        width: 100%;
+    }
+
+    .query-type {
+        height: 130px;
+    }
+
+    .genquiry {
+        width: 90%;
+    }
+
+    .rsupport {
+        position: relative;
+        left: 0;
+        top: 7px;
+        width: 180px;
+    }
+
+    #toast-message {
+        height: 90px;
+        width: 280px;
+        background-color: hsl(187, 24%, 22%);
+        position: absolute;
+        top: 10px;
+        display: none;
+    }
+}
+
